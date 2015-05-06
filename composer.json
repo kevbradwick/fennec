@@ -1,0 +1,29 @@
+{
+  "name": "kevinbradwick/fennec",
+  "description": "A lightweight dependency injection library for PHP",
+  "authors": [
+    {
+      "name": "Kevin Bradwick",
+      "email": "kevinbradwick@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "keywords": [
+    "dependency injection",
+    "DI"
+  ],
+  "minimum-stability": "dev",
+  "type": "library",
+  "version": "0.1.0",
+  "autoload": {
+    "psr-4": {
+      "Fennec\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.6"
+  }
+}
