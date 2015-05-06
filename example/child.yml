@@ -1,0 +1,8 @@
+---
+inherit: "root.yml"
+
+# Override parent timezone
+timezone:
+  class: DateTimeZone
+  construct:
+    - "Europe/Milan"

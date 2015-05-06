@@ -1,0 +1,12 @@
+---
+# a DateTimeZone instance configured for Europe/London
+timezone:
+  class: DateTimeZone
+  construct:
+    - "Europe/London"
+
+date:
+  class: DateTime
+  construct:
+    - "now"
+    - ref#timezone
