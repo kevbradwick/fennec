@@ -41,6 +41,7 @@ class Config implements \ArrayAccess
                 break;
         }
 
+        // TODO transform each array config into a struct
         $this->data = $loader->load();
     }
 
